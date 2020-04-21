@@ -35,6 +35,7 @@
 
 .contato {
     display: inline-block;
+    white-space: normal;
     vertical-align: middle;
     text-align: left;
     width: 80%;
