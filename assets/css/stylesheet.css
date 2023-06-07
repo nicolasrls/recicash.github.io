@@ -1,0 +1,132 @@
+#corpo {
+  text-align: center;
+  align-content: center;
+  width: auto;
+  background-image: linear-gradient(to bottom, #3498db, #65a5db);
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2);
+}
+
+#qmsomos div {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#qmsomos h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#qmsomos p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#qmsomos img {
+  width: 350px;
+  height: 400px;
+  float: left;
+  margin-right: 20px;
+}
+
+
+#meio {
+  color: yellow;
+  font-size: 35px;
+  font-family: Impact;
+}
+
+#localizacao {
+  width: auto;
+  align-items: center;
+}
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#form h1 {
+  margin-bottom: 20px;
+  color: #505050;
+}
+
+#form form {
+  width: 400px;
+  max-width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+  font-weight: bold;
+  text-align: left;
+}
+
+#form input,
+#form select,
+#form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+}
+
+#form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#form label.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#form p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+#textobg {
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3498db;
+  color: #fff;
+}
+
+#rodape {
+  background-color: #212529;
+  color: white;
+  padding: 20px;
+}
