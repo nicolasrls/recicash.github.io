@@ -130,3 +130,46 @@
   color: white;
   padding: 20px;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Ajuste conforme necessário */
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.map-responsive {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-link {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

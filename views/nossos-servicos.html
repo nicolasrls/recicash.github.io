@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="../assets/img/logo.png" />
-    <title>Nossos Serviços - Assistência Técnica em Informática</title>
+    <title>Nossos serviços</title>
     <!-- Link para o CSS do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Adicionando folhas de estilo e icone-->
+    <link rel="icon" type="logo.png" href="../assets/img/logo.png" />
+    <link rel="stylesheet" href="../assets/css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- Adicionando integração com o widget do whatsapp-->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
+
+<body id="corpo">
 
     <!-- Navbar padrão -->
 
@@ -37,7 +46,7 @@
                         <a class="nav-link" href="/views/localizacao.html">Localização</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="views/formulario.html">Fale
+                        <a class="nav-link" href="/views/formulario.html">Fale
                             Conosco</a>
                     </li>
                 </ul>
@@ -60,11 +69,12 @@
             <!-- Serviço 1: Manutenção de Computadores -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Manutenção de Computadores">
+                    <img src="../assets/img/o-tecnico-consertando-o-computador-hardware-de-computador-consertando-atualize-e-tecnologia_1150-8861.avif" class="card-img-top"
+                        alt="Manutenção de Computadores">
                     <div class="card-body">
                         <h5 class="card-title">Manutenção de Computadores</h5>
                         <p class="card-text">
-                            Diagnóstico, reparo e otimização de desempenho para desktops e laptops. 
+                            Diagnóstico, reparo e otimização de desempenho para desktops e laptops.
                             Garantimos que seu equipamento funcione como novo.
                         </p>
                     </div>
@@ -74,11 +84,12 @@
             <!-- Serviço 2: Remoção de Vírus e Malware -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Remoção de Vírus e Malware">
+                    <img src="../assets/img/search-find-bugs-virus-magnifying-glass-scanning-antivirus-protection-vector-stock-illustration_100456-9383.avif" class="card-img-top"
+                        alt="Remoção de Vírus e Malware">
                     <div class="card-body">
                         <h5 class="card-title">Remoção de Vírus e Malware</h5>
                         <p class="card-text">
-                            Proteja seus dados e mantenha seu sistema seguro. 
+                            Proteja seus dados e mantenha seu sistema seguro.
                             Removemos vírus, spyware e malware de forma eficiente e segura.
                         </p>
                     </div>
@@ -88,12 +99,11 @@
             <!-- Serviço 3: Recuperação de Dados -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Recuperação de Dados">
+                    <img src="../assets/img/jovem-inventora-criando-em-sua-oficina_23-2149067228.avif" class="card-img-top" alt="Recuperação de Dados">
                     <div class="card-body">
-                        <h5 class="card-title">Recuperação de Dados</h5>
+                        <h5 class="card-title">Reparo de placa</h5>
                         <p class="card-text">
-                            Perdeu arquivos importantes? 
-                            Oferecemos serviços de recuperação de dados para ajudar a restaurar documentos, fotos e outros arquivos perdidos.
+                            Reparos em eletrônica para seu equipamento, em tempo hábil e preço justo!
                         </p>
                     </div>
                 </div>
@@ -104,12 +114,13 @@
             <!-- Serviço 4: Instalação de Software -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Instalação de Software">
+                    <img src="../assets/img/conceito-de-suporte-tecnico_1284-14631.avif" class="card-img-top" alt="Instalação de Software">
                     <div class="card-body">
                         <h5 class="card-title">Instalação de Software</h5>
                         <p class="card-text">
-                            Necessita de novos programas? 
-                            Instalamos e configuramos software de forma adequada, garantindo que tudo funcione perfeitamente.
+                            Necessita de novos programas?
+                            Instalamos e configuramos software de forma adequada, garantindo que tudo funcione
+                            perfeitamente.
                         </p>
                     </div>
                 </div>
@@ -118,11 +129,12 @@
             <!-- Serviço 5: Montagem de Computadores Personalizados -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Montagem de Computadores Personalizados">
+                    <img src="../assets/img/montagem-de-computador-gamer-santos.webp" class="card-img-top"
+                        alt="Montagem de Computadores Personalizados">
                     <div class="card-body">
                         <h5 class="card-title">Montagem de Computadores Personalizados</h5>
                         <p class="card-text">
-                            Precisa de um computador que atenda exatamente às suas necessidades? 
+                            Precisa de um computador que atenda exatamente às suas necessidades?
                             Montamos computadores personalizados com os melhores componentes do mercado.
                         </p>
                     </div>
@@ -132,11 +144,11 @@
             <!-- Serviço 6: Consultoria em TI -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Consultoria em TI">
+                    <img src="../assets/img/consultoria-de-ti.png" class="card-img-top" alt="Consultoria em TI">
                     <div class="card-body">
                         <h5 class="card-title">Consultoria em TI</h5>
                         <p class="card-text">
-                            Melhore sua infraestrutura de TI com a nossa consultoria especializada. 
+                            Melhore sua infraestrutura de TI com a nossa consultoria especializada.
                             Planejamento, implementação e suporte para empresas de todos os portes.
                         </p>
                     </div>
@@ -145,7 +157,56 @@
         </div>
     </div>
 
+
+
+    <!-- Adicionando widget do whatsapp na página -->
+    <div class="elfsight-app-e51fb0fd-2704-40e0-b136-af281b70842b"></div>
+
+    <!-- Adicionando footer abaixo -->
+
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="../assets/img/logo.png" alt="NR Tec Informática" height="50">
+                            <span>&copy; NR Tec Informática</span>
+                        </div>
+                        <div>
+                            <h4>Links:</h4>
+                            <ul>
+                                <li><a href="/views/formulario.html">Fale Conosco</a></li>
+                                <li><a href="/views/quem-somos.html">Quem Somos</a></li>
+                                <li><a target="_blank" href="https://g.page/r/CRTk4CvIQ-KyEB0/review">Avalie-nos no
+                                        Google!</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Siga-nos nas redes sociais:</h4>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a target="_blank"
+                                        href="https://www.instagram.com/nr.tec/"><i
+                                            class="fab fa-instagram fa-2x"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a target="_blank"
+                                        href="https://www.facebook.com/people/NR-Tec/100065210250398/"><i
+                                            class="fab fa-facebook fa-2x"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a target="_blank"
+                                        href="https://www.tiktok.com/@nrtecmanutencoes"><i
+                                            class="fab fa-tiktok fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- Script do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
