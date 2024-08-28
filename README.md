@@ -1,1 +1,0 @@
-# Site-NR-Tec-Informatica

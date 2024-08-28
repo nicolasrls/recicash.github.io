@@ -25,12 +25,12 @@
 
 <body id="corpo">
 
-    <!-- Introduzindo menu NavBar da página que será igual no form e no obrigado -->
+    <!-- Navbar padrão -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" alt="NR Tec Informatica" height="70">
+                <img src="../assets/img/logo.png" alt="NR Tec Informatica" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,29 +40,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                        <a class="nav-link" aria-current="page" href="../index.html">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#qmsomos">Quem somos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Nossos Serviços</a>
-                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <li class="dropdown-item">Formatação</li>
-                            <li class="dropdown-item">Troca de tela</li>
-                            <li class="dropdown-item">Reparo de carcaça</li>
-                            <li class="dropdown-item">Instalação de SSD</li>
-                            <li class="dropdown-item">Manutenção Preventiva</li>
-                            <li class="dropdown-item">Reparo de placa</li>
-                            <li class="dropdown-item">Entre outros</li>
-                        </ul>
+                        <a class="nav-link" href="/views/quem-somos.html">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#localizacao">Localização</a>
+                        <a class="nav-link" href="/views/nossos-servicos.html">Nossos serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="formulario.html">Fale
+                        <a class="nav-link" href="/views/localizacao.html">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/formulario.html">Fale
                             Conosco</a>
                     </li>
                 </ul>
@@ -72,18 +62,79 @@
 
     <hr>
 
-    <!-- Adicionando Widgets do Google Avaliações e do Whatsapp dinamico -->
 
-    <div class="elfsight-app-8b436b89-9119-4dba-8343-2a22163854f5"></div>
-    <div class="elfsight-app-e51fb0fd-2704-40e0-b136-af281b70842b"></div>
+    <div class="container mt-5">
+        <!-- Área do Cliente -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Área do Cliente</h3>
+                    </div>
+                    <div class="card-body">
+                        <a href="link-para-login.html" class="btn btn-primary btn-lg">Acessar Área do Cliente</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nossos Serviços -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3>Nossos Serviços</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Oferecemos uma gama completa de serviços para atender às suas necessidades.
+                            Desde consultoria especializada até suporte técnico, estamos prontos para ajudar.
+                            Explore mais sobre o que podemos oferecer.
+                        </p>
+                        <div class="text-center">
+                            <a href="/views/nossos-servicos.html" class="btn btn-secondary btn-lg">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!-- Container principal
+    <div class="container mt-5">
+        Área do Cliente
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Área do Cliente</h3>
+                    </div>
+                    <div class="card-body">
+                        Botão Centralizado
+                        <a href="link-para-login.html" class="btn btn-primary btn-lg">Acessar Área do Cliente</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <hr>
+
+    <!-- Adicionando Widgets do Google Avaliações e do Whatsapp dinamico -->
+    <!-- 
+    <div class="elfsight-app-8b436b89-9119-4dba-8343-2a22163854f5"></div>
+    <div class="elfsight-app-e51fb0fd-2704-40e0-b136-af281b70842b"></div> -->
+
+    <!-- <hr>
 
     <div class="container" id="qmsomos">
 
         <h2>Quem somos?</h2>
         <br>
-        <img src="assets/img/eu.jpg" alt="Imagem Quem Somos">
+        <img src="assets/img/bancada.jpg" alt="Imagem Quem Somos">
         <p>Na imagem ao lado está Nícolas Ribeiro, responsável pela NR Tec Informática. Atualmente estudante de Sistemas
             para Internet na UNIPÊ, ex-estudante de Engenharia Elétrica pelo IFPB e proprietário do negócio, Nícolas
             está no ramo de informática há quase 7 anos por
@@ -110,7 +161,7 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <hr>
+    <hr> -->
 
     <!-- Adicionando footer abaixo -->
 
