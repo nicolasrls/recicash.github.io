@@ -139,7 +139,13 @@
 
 .card-img-top {
   object-fit: cover;
-  height: 200px; /* Ajuste conforme necessário */
+  height: 200px;
+}
+
+.card-img-top-index {
+  object-fit: contain;
+  width: 100%;    /* Largura ajusta ao card */
+  height: 200px;   /* Altura se ajusta proporcionalmente */
 }
 
 .card-body {

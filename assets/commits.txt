@@ -1,0 +1,7 @@
+v1.01 do projeto:
+
+Commits de estilização, padronização do cabeçalho em todas as paginas, adição de imagens na pagina de serviços.
+
+V1.02 do projeto:
+
+01/09/2024: Commit de remoção(form, obrigado e quem-somos), implementação do fale conosco via whatsapp, adição de imagens na página inicial, correção dos links e redirecionamentos.
