@@ -5,3 +5,4 @@ Commits de estilização, padronização do cabeçalho em todas as paginas, adi�
 V1.02 do projeto:
 
 01/09/2024: Commit de remoção(form, obrigado e quem-somos), implementação do fale conosco via whatsapp, adição de imagens na página inicial, correção dos links e redirecionamentos.
+02/09/2024: Correções de bugs e ausencia do widget do whatsapp na pagina de avaliações
